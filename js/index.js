@@ -295,6 +295,7 @@ function reveal() {
   var img = document.createElement("img");
   img.setAttribute("src", "New Project.jpg");
   img.style.height = `${h}px`;
+  img.style.width = `290px`;
   img.style.border = 'none';
   img.style.display = 'block'; // Ensures that the image is displayed as a block element
   img.style.margin = '0 auto'; // Centers the image horizontally
